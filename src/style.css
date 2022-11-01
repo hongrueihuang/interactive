@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "Cubic";
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+  src: url("/fonts/Cubic/Cubic_11_1.013_R.woff2") format("woff2"), url("/fonts/Cubic/Cubic_11_1.013_R.woff") format("woff");
+}
+
+#app {
+  font-family: "Cubic";
+  line-height: 1;
+  font-size: 16px;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
